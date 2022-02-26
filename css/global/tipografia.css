@@ -1,0 +1,12 @@
+.texto-grande {
+  font-weight: 600;
+  font-size: 4rem;
+  line-height: 1.12;
+  font-family: "poppins";
+}
+.texto-medio {
+  font-weight: 300;
+  font-family: "prompt";
+  font-size: 1.5rem;
+  line-height: 1.33;
+}

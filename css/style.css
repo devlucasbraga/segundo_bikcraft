@@ -13,3 +13,5 @@
 
 /* page home */
 @import "./home/introducao.css";
+@import "./bicicleta/bicicletas-lista.css";
+@import "./home/tecnologia.css";

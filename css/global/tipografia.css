@@ -1,12 +1,50 @@
-.texto-grande {
-  font-weight: 600;
-  font-size: 4rem;
-  line-height: 1.12;
-  font-family: "poppins";
+/* fonte family poppins */
+.fonte-1-xg {
+  font: 600 4rem/1.12 "poppins", sans-serif;
 }
-.texto-medio {
-  font-weight: 300;
-  font-family: "prompt";
-  font-size: 1.5rem;
-  line-height: 1.33;
+.fonte-1-gg {
+  font: 600 2.25rem/0.89 "poppins", sans-serif;
+}
+.fonte-1-g {
+  font: 600 2rem/1.25 "poppins", sans-serif;
+}
+.fonte-1-m {
+  font: 400 1.5rem/1.33 "poppins", sans-serif;
+}
+.fonte-1-p {
+  font: 500 1.125rem/1.33 "poppins", sans-serif;
+}
+
+/* fonte family prompt */
+.fonte-2-g {
+  font: 500 1.5rem/1.42 "prompt", sans-serif;
+}
+.fonte-2-m {
+  font: 300 1.5rem/1.33 "prompt", sans-serif;
+}
+.fonte-2-p {
+  font: 300 1rem/1.5 "prompt", sans-serif;
+}
+.fonte-2-pp {
+  font: 500 1.125rem/1.78 "prompt", sans-serif;
+}
+
+/* tipografia responsiva  */
+@media (max-width: 1200px) {
+  .fonte-1-xg {
+    font-size: 3.5rem;
+  }
+  .fonte-2-m {
+    font-size: 1.25rem;
+  }
+}
+@media (max-width: 800px) {
+  .fonte-1-xg {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 550) {
+  .fonte-1-p {
+    font-size: 0.75rem;
+  }
 }

@@ -6,10 +6,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0 40px;
-  box-sizing: border-box;
-  max-width: 1200px;
-  padding: 0 20px;
-  margin: 0 auto;
 }
 .introducao-conteudo {
   align-self: end;
@@ -27,14 +23,6 @@
   margin-bottom: 24px;
 }
 
-@media (max-width: 1200px) {
-  .introducao-conteudo h1 {
-    font-size: 3.5rem;
-  }
-  .introducao-conteudo p {
-    font-size: 1.25rem;
-  }
-}
 @media (max-width: 800px) {
   .introducao-bg {
     padding-top: 40px;
@@ -46,11 +34,7 @@
     gap: 30px;
   }
   .introducao-conteudo h1 {
-    font-size: 2.5rem;
     margin-bottom: 16px;
-  }
-  .introducao-conteudo p {
-    font-size: 1.125rem;
   }
   .introducao-conteudo {
     padding-bottom: 0px;

@@ -2,7 +2,6 @@
 @import "./global/gloabal.css";
 
 @import "./global/tipografia.css";
-
 @import "./global/cores.css";
 
 /* header do site */
@@ -15,3 +14,5 @@
 @import "./home/introducao.css";
 @import "./bicicleta/bicicletas-lista.css";
 @import "./home/tecnologia.css";
+@import "./home/parceiros.css";
+@import "./home/depoimento.css";

@@ -1,14 +1,13 @@
 /* algumas formatação do vs */
 @import "./global/gloabal.css";
+/* componetes global como o btn */
+@import "./global/componentes.css";
 
 @import "./global/tipografia.css";
 @import "./global/cores.css";
 
-/* header do site */
 @import "./global/header.css";
-
-/* componetes global como o btn */
-@import "./global/componentes.css";
+@import "./global/footer.css";
 
 /* page home */
 @import "./home/introducao.css";
@@ -16,3 +15,14 @@
 @import "./home/tecnologia.css";
 @import "./home/parceiros.css";
 @import "./home/depoimento.css";
+
+/* Bicicletas */
+@import "./bicicleta/bicicletas.css";
+
+/* seguros */
+@import "./seguros/seguros.css";
+@import "./seguros/vantagens.css";
+@import "./seguros/perguntas.css";
+
+/* Termos e condições */
+@import "./termos/termos.css";

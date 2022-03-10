@@ -11,13 +11,16 @@
 
 /* page home */
 @import "./home/introducao.css";
-@import "./bicicleta/bicicletas-lista.css";
 @import "./home/tecnologia.css";
 @import "./home/parceiros.css";
 @import "./home/depoimento.css";
 
 /* Bicicletas */
 @import "./bicicleta/bicicletas.css";
+@import "./bicicleta/bicicletas-lista.css";
+
+/* page Bicicletas Internas */
+@import "./bicicletas-interna/bicicletas-interna.css";
 
 /* seguros */
 @import "./seguros/seguros.css";

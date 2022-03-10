@@ -17,13 +17,25 @@
 .fonte-1-p {
   font: 500 1.125rem/1.33 "poppins", sans-serif;
 }
+.fonte-1-pb {
+  font: 600 1.125rem/1.33 "poppins", sans-serif;
+}
 .fonte-1-pp {
   font: 600 0.875rem/1.33 "poppins", sans-serif;
 }
+.fonte-1-xp {
+  font: 600 0.75rem/1.33 "poppins", sans-serif;
+}
 
 /* fonte family prompt */
+.fonte-2-gg {
+  font: 500 2.25rem/1.33 "prompt", sans-serif;
+}
 .fonte-2-g {
   font: 500 1.5rem/1.42 "prompt", sans-serif;
+}
+.fonte-2-mm {
+  font: 400 1.5rem/1.33 "prompt", sans-serif;
 }
 .fonte-2-m {
   font: 300 1.5rem/1.33 "prompt", sans-serif;
@@ -36,6 +48,9 @@
 }
 .fonte-2-xp {
   font: 400 1.125rem/1.78 "prompt", sans-serif;
+}
+.fonte-2-pq {
+  font: 500 0.875rem/1.43 "prompt", sans-serif;
 }
 
 /* tipografia responsiva  */

@@ -30,3 +30,8 @@ dd,
 a {
   margin: 0px;
 }
+button,
+input,
+textarea {
+  border: none;
+}

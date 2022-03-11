@@ -1,10 +1,11 @@
 /* algumas formatação do vs */
 @import "./global/gloabal.css";
-/* componetes global como o btn */
-@import "./global/componentes.css";
 
+/* componetes global */
+@import "./global/componentes.css";
 @import "./global/tipografia.css";
 @import "./global/cores.css";
+@import "./global/formulario.css";
 
 @import "./global/header.css";
 @import "./global/footer.css";
@@ -21,11 +22,16 @@
 
 /* page Bicicletas Internas */
 @import "./bicicletas-interna/bicicletas-interna.css";
+@import "./bicicletas-interna/seguro.css";
 
 /* seguros */
 @import "./seguros/seguros.css";
 @import "./seguros/vantagens.css";
 @import "./seguros/perguntas.css";
+
+/* page contatos  */
+@import "./contato/contato.css";
+@import "./contato/lojas.css";
 
 /* Termos e condições */
 @import "./termos/termos.css";

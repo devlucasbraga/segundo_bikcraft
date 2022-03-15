@@ -57,6 +57,9 @@
   padding-top: 60px;
   padding-bottom: 60px;
 }
+.titulo {
+  background: url("../../img/dec/top-left.svg") no-repeat top right;
+}
 .titulo p {
   margin-bottom: 8px;
   text-transform: uppercase;
@@ -77,5 +80,8 @@
   .botao a {
     padding: 12px 20px;
     font-size: 1rem;
+  }
+  .titulo {
+    background: none;
   }
 }

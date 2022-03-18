@@ -37,13 +37,13 @@
   <main class="seguros-bg">
     <div class="titulo-bg">
       <div class="titulo container">
-        <p class="fonte-2-pp c-4">escolha o seguro</p>
-        <h1 class="fonte-1-xg c-1">você seguro<span class="p-1">.</span></h1>
+        <p class="fonte-2-pp c-4 fadeInLeft" data-anime="200">escolha o seguro</p>
+        <h1 class="fonte-1-xg c-1 fadeInLeft" data-anime="400">você seguro<span class="p-1">.</span></h1>
       </div>
     </div>
     <div class="seguros container">
 
-      <div class="seguros-item">
+      <div class="seguros-item fadeInLeft" data-anime=" 400">
         <h3 class="fonte-1-gg c-5">PRATA</h3>
         <span class="fonte-1-gg c-0">R$ 180 <span class="fonte-1-pp c-5">mensal</span></span>
         <ul class="fonte-1-p c-0">
@@ -52,10 +52,10 @@
           <li>Suporte 08h ás 18h</li>
           <li>Cobertura estadual </li>
         </ul>
-        <a class="secundario" href="./orcamento.html">inscreva-se</a>
+        <a class="secundario" href="./orcamento.html?tipo=seguro&produto=prata">inscreva-se</a>
       </div>
 
-      <div class="seguros-item">
+      <div class="seguros-item fadeInLeft" data-anime=" 600">
         <h3 class="fonte-1-gg p-1">OURO</h3>
         <span class="fonte-1-gg c-0">R$ 299 <span class="fonte-1-pp c-5">mensal</span></span>
         <ul class="fonte-1-p c-0">
@@ -66,7 +66,7 @@
           <li>Descontos parceiros</li>
           <li>Acesso ao club Bikcraft</li>
         </ul>
-        <a class="botao" href="./orcamento.html">inscreva-se</a>
+        <a class="botao" href="./orcamento.html?tipo=seguro&produto=ouro">inscreva-se</a>
       </div>
     </div>
   </main>
@@ -120,32 +120,32 @@
     <h2 class="fonte-1-xg  c-12">nossas vantagens<span class="p-1">.</span></h2>
     <dl>
       <div>
-        <dt class="fonte-1-pb c-11">Qual forma de pagamento vocês aceitam?</dt>
-        <dd class="fonte-2-xp c-9">Aceitamos cartões de credito e para pagamentos a vista aceitamos boletos e PIX atráves do PagSeguro </dd>
+        <dt><button class="fonte-1-pb c-11" area-controls="pergunta1" aria-expanded="true"> Qual forma de pagamento vocês aceitam?</button></dt>
+        <dd id="pergunta1" class="fonte-2-xp c-9 ativa ">Aceitamos cartões de credito e para pagamentos a vista aceitamos boletos e PIX atráves do PagSeguro </dd>
       </div>
       <div>
-        <dt class="fonte-1-pb c-11">Como posso entrar em contato?</dt>
-        <dd class="fonte-2-xp c-9">Aceitamos cartões de credito e para pagamentos a vista aceitamos boletos e PIX atráves do PagSeguro </dd>
+        <dt><button class="fonte-1-pb c-11" area-controls="pergunta2" aria-expanded="false">Como posso entrar em contato?</button></dt>
+        <dd id="pergunta2" class="fonte-2-xp c-9">Aceitamos cartões de credito e para pagamentos a vista aceitamos boletos e PIX atráves do PagSeguro </dd>
       </div>
       <div>
-        <dt class="fonte-1-pb c-11">Qual praza de entrega das bicicletas?</dt>
-        <dd class="fonte-2-xp c-9">Aceitamos cartões de credito e para pagamentos a vista aceitamos boletos e PIX atráves do PagSeguro </dd>
+        <dt><button class="fonte-1-pb c-11" area-controls="pergunta3" aria-expanded="false">Qual praza de entrega das bicicletas?</dt>
+        <dd id="pergunta3" class="fonte-2-xp c-9">Aceitamos cartões de credito e para pagamentos a vista aceitamos boletos e PIX atráves do PagSeguro </dd>
       </div>
       <div>
-        <dt class="fonte-1-pb c-11">Fazem bicicletas sobre medida?</dt>
-        <dd class="fonte-2-xp c-9">Aceitamos cartões de credito e para pagamentos a vista aceitamos boletos e PIX atráves do PagSeguro </dd>
+        <dt><button class="fonte-1-pb c-11" area-controls="pergunta4" aria-expanded="false">Fazem bicicletas sobre medida?</dt>
+        <dd id="pergunta4" class="fonte-2-xp c-9">Aceitamos cartões de credito e para pagamentos a vista aceitamos boletos e PIX atráves do PagSeguro </dd>
       </div>
       <div>
-        <dt class="fonte-1-pb c-11">Posso contratar o seguro a parte?</dt>
-        <dd class="fonte-2-xp c-9">Aceitamos cartões de credito e para pagamentos a vista aceitamos boletos e PIX atráves do PagSeguro </dd>
+        <dt><button class="fonte-1-pb c-11" area-controls="pergunta5" aria-expanded="false">Posso contratar o seguro a parte?</dt>
+        <dd id="pergunta5" class="fonte-2-xp c-9">Aceitamos cartões de credito e para pagamentos a vista aceitamos boletos e PIX atráves do PagSeguro </dd>
       </div>
       <div>
-        <dt class="fonte-1-pb c-11">vocês personalizam as bicicletas tambem?</dt>
-        <dd class="fonte-2-xp c-9">Aceitamos cartões de credito e para pagamentos a vista aceitamos boletos e PIX atráves do PagSeguro </dd>
+        <dt><button class="fonte-1-pb c-11" area-controls="pergunta6" aria-expanded="false">vocês personalizam as bicicletas tambem?</dt>
+        <dd id="pergunta6" class="fonte-2-xp c-9">Aceitamos cartões de credito e para pagamentos a vista aceitamos boletos e PIX atráves do PagSeguro </dd>
       </div>
       <div>
-        <dt class="fonte-1-pb c-11">Qual á forma de envio ?</dt>
-        <dd class="fonte-2-xp c-9">Aceitamos cartões de credito e para pagamentos a vista aceitamos boletos e PIX atráves do PagSeguro </dd>
+        <dt><button class="fonte-1-pb c-11" area-controls="pergunta7" aria-expanded="false">Qual á forma de envio ?</dt>
+        <dd id="pergunta7" class="fonte-2-xp c-9">Aceitamos cartões de credito e para pagamentos a vista aceitamos boletos e PIX atráves do PagSeguro </dd>
       </div>
     </dl>
   </article>
@@ -187,6 +187,8 @@
       <p class=" footer-copy fonte-2-pp c-3">Bikcraft © Alguns direitos reservados.</p>
     </div>
   </footer>
+  <script src="./js/plugins/simple-anime.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 
 </html>

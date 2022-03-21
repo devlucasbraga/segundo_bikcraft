@@ -43,7 +43,7 @@
       </div>
     </div>
 
-    <form class="orcamento container" action="./enviar.php" method="post">>
+    <form class="orcamento container" action="./enviar.php" method="post">
       <div class="orcamento-produtos">
 
         <h2 class="fonte-1-xp c-5 col-2">Bikcraft ou seguro?</h2>
@@ -132,7 +132,7 @@
         </div>
         <div>
           <label for="numero">Numero</label>
-          <input type="text" id="numero" name="numero">
+          <input type="text" id="numero" name="numero" required>
         </div>
         <div>
           <label for="logradouro">Logradouro</label>
@@ -150,8 +150,8 @@
           <label for="estado">Estado</label>
           <input type="text" id="estado" name="estado" placeholder="Selecione">
         </div>
-        <p class="orcamento-termos fonte-1-pp">Li e aceito os <span>termos e condições.</span></p>
-        <button class="botao col-2">Solicitar Orçamento</button>
+        <p class="orcamento-termos fonte-1-pp">Li e aceito os <a href="./termos.html"><span> termos e condições.</span></a> </p>
+        <button class="botao col-2"> Solicitar Orçamento</button>
       </div>
     </form>
   </main>
@@ -194,6 +194,7 @@
       <p class=" footer-copy fonte-2-pp c-3">Bikcraft © Alguns direitos reservados.</p>
     </div>
   </footer>
+  <script src="./js/formulario.js"></script>
   <script src="./js/plugins/simple-anime.js"></script>
   <script src="./js/script.js"></script>
 </body>
